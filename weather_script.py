@@ -1,7 +1,7 @@
 import requests
 
 def weather():
-    KEY = '3caa0b2e644e7b1571244144afd277e8'    # Key з сайту openweather.org
+    KEY = 'key from your personal'    # Key з сайту openweather.org
     city = input('Назва міста: ')    # Ввід назви міста
     URL = f'https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&appid=' + KEY    # Силка
                                                                                                    # api з містом
